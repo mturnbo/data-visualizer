@@ -1,0 +1,36 @@
+.array-container {
+  font-family: Arial, Verdana, sans-serif;
+  margin: 10px;
+  max-width: 70%;
+  text-align: left;
+}
+
+.array-item {
+  display: inline-block;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+  width: 50px;
+  height: 25px;
+  position: relative;
+  padding: 25px 2px 2px 2px;
+  margin: 5px;
+}
+
+.array-item-index {
+  background-color: #DEDEDE;
+  border-right: 1px solid #666666;
+  border-bottom: 1px solid #666666;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 10px;
+  padding: 0;
+  text-align: center;
+}
+
+.array-item-content {
+  font-size: 12px;
+  text-align: center;
+}
