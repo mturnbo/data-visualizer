@@ -1,14 +1,17 @@
 import './App.css';
-import './components/Array/ArrayContainer';
-import ArrayContainer from './components/Array/ArrayContainer';
+import ArrayVisualizer from './components/ArrayVisualizer/';
+import { permutations } from './utils/arrays';
 
 function App() {
-    const n = 50;
-    const arr = [...Array(n + 1).keys()].slice(1);
+    const n = 10;
+    const nums = [...Array(n + 1).keys()].slice(1);
+    const letters = 'abcdefghijklmnopqrstuvwxyz'.split('');
+    const nested = ['a', 'b', 'c', ['a', 'b', 'c'], 'd', ['a', 'b', 'c'], ['a', ['a', 'b', 'c'], 'c']];
 
     return (
         <div className="App">
-            <ArrayContainer array={arr} />
+            <ArrayVisualizer array={nested} />
+            <hr />
         </div>
     );
 }

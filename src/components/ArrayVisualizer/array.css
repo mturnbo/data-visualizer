@@ -1,8 +1,16 @@
+.array-visualizer {
+  max-width: 80%;
+  text-align: left;
+  font-size: 12px;
+  margin: 5px;
+}
+
 .array-container {
+  border: 1px solid #000000;
   font-family: Arial, Verdana, sans-serif;
   margin: 10px;
-  max-width: 70%;
   text-align: left;
+  padding: 5px;
 }
 
 .array-item {
