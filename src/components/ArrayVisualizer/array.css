@@ -8,9 +8,9 @@
 .array-container {
   border: 1px solid #000000;
   font-family: Arial, Verdana, sans-serif;
-  margin: 10px;
   text-align: left;
-  padding: 5px;
+  padding: 2px 2px 2px 15px;
+  position: relative;
 }
 
 .array-item {
@@ -21,14 +21,14 @@
   height: 25px;
   position: relative;
   padding: 25px 2px 2px 2px;
-  margin: 5px;
+  margin: 2px;
 }
 
 .array-item-index {
   background-color: #DEDEDE;
   border-right: 1px solid #666666;
   border-bottom: 1px solid #666666;
-  width: 15px;
+  min-width: 15px;
   height: 15px;
   position: absolute;
   top: 0;
@@ -41,4 +41,9 @@
 .array-item-content {
   font-size: 12px;
   text-align: center;
+}
+
+.sub-index {
+  display: inline-block;
+  width: 20px;
 }

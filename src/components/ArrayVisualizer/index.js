@@ -6,7 +6,11 @@ import './array.css';
 const ArrayVisualizer = (props) => {
     const generateArray = (item, index) => {
         if (Array.isArray(item)) {
-            return <ArrayContainer key={index}>{item.map((item, index) => generateArray(item, index))}</ArrayContainer>;
+            return (
+                <ArrayContainer key={index} index={index} sub={true}>
+                    {item.map((item, index) => generateArray(item, index))}
+                </ArrayContainer>
+            );
         } else {
             return <ArrayItem key={index} index={index} content={item} />;
         }
