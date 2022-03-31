@@ -12,7 +12,7 @@ const ArrayVisualizer = (props) => {
                 </ArrayContainer>
             );
         } else {
-            return <ArrayItem key={index} index={index} content={item} />;
+            return <ArrayItem key={index} index={index} content={item} highlight={props.highlight?.includes(index)} />;
         }
     };
 

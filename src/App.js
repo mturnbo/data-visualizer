@@ -7,11 +7,13 @@ function App() {
     const nums = [...Array(n + 1).keys()].slice(1);
     const letters = 'abcdefghijklmnopqrstuvwxyz'.split('');
     const nested = ['a', 'b', 'c', ['a', 'b', 'c'], 'd', ['a', 'b', 'c'], ['a', ['a', 'b', 'c'], 'c']];
+    const small = ['a', 'b', 'c', 1, 2];
 
     return (
         <div className="App">
-            <ArrayVisualizer array={nested} />
+            <ArrayVisualizer array={small} />
             <hr />
+            <ArrayVisualizer array={permutations(small)} />
         </div>
     );
 }

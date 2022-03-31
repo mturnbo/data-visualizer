@@ -43,6 +43,10 @@
   text-align: center;
 }
 
+.array-item-highlight {
+  background-color: #FFFF99;
+}
+
 .sub-index {
   display: inline-block;
   width: 20px;
