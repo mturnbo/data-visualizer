@@ -1,5 +1,7 @@
 import './App.css';
 import ArrayVisualizer from './components/ArrayVisualizer/';
+import Queue from './components/QueueStack/Queue';
+import Stack from './components/QueueStack/Stack';
 import { permutations } from './utils/arrays';
 
 function App() {
@@ -13,7 +15,9 @@ function App() {
         <div className="App">
             <ArrayVisualizer array={small} />
             <hr />
-            <ArrayVisualizer array={permutations(small)} />
+            <Queue maxSize="20" />
+            <hr />
+            <Stack maxSize="20" />
         </div>
     );
 }
