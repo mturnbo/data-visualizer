@@ -1,4 +1,4 @@
-import Stack from '../components/QueueStack/Queue';
+import Stack from '../components/QueueStack/Stack';
 
 function StackView() {
     return <Stack maxSize="20" />;
