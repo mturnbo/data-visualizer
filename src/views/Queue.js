@@ -1,4 +1,4 @@
-import Queue from '../components/QueueStack/Queue';
+import Queue from 'components/QueueStack/Queue';
 
 function QueueView() {
     return <Queue maxSize="20" />;

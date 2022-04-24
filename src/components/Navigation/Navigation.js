@@ -8,7 +8,11 @@ const Navigation = () => (
             paddingBottom: '1rem',
         }}
     >
-        <Link to="/">Home</Link> |<Link to="/basic">Basic</Link> |<Link to="/queue">Queue</Link> |<Link to="/stack">Stack</Link>
+        <Link to="/">Home</Link> |
+        <Link to="/basic">Basic</Link> |
+        <Link to="/queue">Queue</Link> |
+        <Link to="/stack">Stack</Link> |
+        <Link to="/tree">Node Tree</Link>
     </nav>
 );
 

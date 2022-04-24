@@ -1,5 +1,5 @@
 import React from 'react';
-import ArrayVisualizer from '../ArrayVisualizer/';
+import ArrayVisualizer from 'components/ArrayVisualizer/';
 import Base from './Base';
 
 class Queue extends Base {
