@@ -7,7 +7,7 @@ function App() {
     return (
         <BrowserRouter>
             <div className="App">
-                <h1>Array Visualizer</h1>
+                <h1>Data Visualizer</h1>
                 <hr />
                 <Navigation />
                 <AppRoutes />

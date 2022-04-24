@@ -1,11 +1,14 @@
-# Array Visualizer
+# Data Visualizer
 
-Small React project to help visualize arrays and array operations in Javascript.
+Small React project to help visualize data structures and operations in Javascript.
 
 ## Components
 
 - Array Container
 - Array Item
+- Queue
+- Stack
+- Node Tree
 
 
 ## Available Scripts
